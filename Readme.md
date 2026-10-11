@@ -10,6 +10,6 @@
 | 1 | Лабораторная 1 | 13.10.26 | Готово |
 | 2 | Лабораторная 2 | 13.10.26 | Готово |
 
-[Моя кошка](https://drive.google.com/uc?export=view&id=1J2zR4VnYyMJQmBHB1tazVEQnXa-d7ux3)
+![Моя кошка](https://drive.google.com/uc?export=view&id=1J2zR4VnYyMJQmBHB1tazVEQnXa-d7ux3)
 
 
