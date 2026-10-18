@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 
 using namespace std;
 
@@ -19,12 +18,12 @@ int main() {
     for (int i = 0; i <= k; i++) {
         double x = a + i * step;
 
-        double FNSumm = 1.0;
+        double SN = 1.0;
         double an = 1.0;
         
         for (int j = 1; j <= n; j++) {
             an *= x / j;
-            FNSumm += an;
+            SN += an;
         }
 
         double SE = 1.0;
@@ -39,10 +38,11 @@ int main() {
 
         double Y = exp(x);
 
-        cout << "X=" << setw(6) << fixed << setprecision(2) << x 
-             << "  FNSumm=" << setw(8) << fixed << setprecision(4) << FNSumm 
-             << "  SE=" << setw(8) << fixed << setprecision(4) << SE 
-             << "  Y=" << setw(8) << fixed << setprecision(4) << Y << endl;
+        // Самый простой вывод без ограничений
+        cout << "X=" << x 
+             << "   SN=" << SN 
+             << "   SE=" << SE 
+             << "   Y=" << Y << endl;
     }
 
     return 0;
